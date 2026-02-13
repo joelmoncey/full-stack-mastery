@@ -1,0 +1,21 @@
+h1{
+    color: greenyellow;
+}
+input{
+    border-color: black;
+    color: black;
+
+}
+footer{
+    color: white;
+    background-color: burlywood;
+    padding: 1%;
+
+}
+select{
+     border-color: black;
+    color: black;
+}
+option{
+    background-color: burlywood;
+}
