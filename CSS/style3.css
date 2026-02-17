@@ -1,0 +1,44 @@
+button{
+    border-radius: 30px;
+  color: white; 
+  border-color: #0071e3; 
+  font-size: medium;
+}
+.card{
+    
+    background: linear-gradient(to bottom ,#aeddef,white);
+}
+h1{
+    padding: 5px;
+    font-size: 100px;
+    
+}
+h2{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 1;
+}
+*{
+    margin: 0px;
+}
+
+
+.btn1{
+    background-color: #0071e3;
+    height: 50px;
+    width: 120px;
+}
+.btn2{
+    background-color: #bde2f2;
+    color: #0071e3;
+    height: 50px;
+    width: 80px;
+    
+}
+.btn1:hover{
+    background: #146cbd;
+}
+.btn2:hover{
+    background: #146cbd;
+    color: white;
+}
