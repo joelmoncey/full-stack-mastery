@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+}
+.bar a{
+    display: block;
+    padding:15px;
+    color: azure;
+    align-items: center;
+    text-decoration: none;
+}
+.bar ul{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    padding: 0px;
+    margin: 0px;
+}
+.bar a:hover
+{background-color: rgb(18, 50, 78);}
+.bar li{
+list-style: none;
+}
