@@ -1,0 +1,34 @@
+div {
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    z-index: -1;
+}
+body {
+
+    background-size: cover;
+    background-image: url("christopher-stites-d5Bh-sSPe3Y-unsplash.jpg");
+}
+.yellow {
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+@media(min-width:500px) {
+    .orange{
+
+        background-color: red;
+    }
+}
