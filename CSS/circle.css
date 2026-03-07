@@ -1,0 +1,22 @@
+div{
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition-property: all;
+transition-duration: 5s;
+transition-timing-function: linear;
+transition-delay: 2s;
+}
+div:hover{
+    color: aliceblue;
+    background-color: brown;
+    font-size: 30px;
+    padding: 600px;
+}
+div:active{
+    background-color: blueviolet;
+}
