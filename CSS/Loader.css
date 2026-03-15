@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height:100px;
+    width: 100px;
+    border: 50px dotted blue;
+    border-top:50px dotted red;
+    border-bottom: 50px dotted green;
+    border-radius: 50%;
+    animation: loaderanime 4s steps(35) infinite;
+    
+}
+@keyframes loaderanime {
+    from{transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
