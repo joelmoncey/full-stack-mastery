@@ -1,0 +1,21 @@
+// Arrays & Methods  
+let a=[1,2,3,4]
+console.log(a)
+let b=new Array(343,434,453)
+b.push(3)
+b.unshift(6)
+b.shift()
+b.splice(1,2)
+console.log(b)
+console.log(b[1])
+console.log(b[b.length -1])
+console.log(b.length )
+let con=a.concat(b)
+console.log(con)
+console.log(con.toString())
+console.log(typeof a)
+console.log(con.join('-'))
+console.log(con.slice(1,4))
+let c=[4,25,36]
+console.log(c.map(Math.sqrt))
+console.log(c.reverse())

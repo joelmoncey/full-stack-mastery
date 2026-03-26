@@ -1,0 +1,17 @@
+*{margin: 0;
+padding: 0;
+}
+ul{
+display: flex;
+justify-content: space-around;
+list-style: none;
+background-color:#8C271E ;
+color: #D8DDDE;
+}
+h1 {
+    
+    display: flex;
+    justify-content: center;
+    color: #D9F7FA;
+    background-color: #ABA194;
+}

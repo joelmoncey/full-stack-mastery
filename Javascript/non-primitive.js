@@ -8,11 +8,36 @@ let array = [
     "apple","orange","grape"
 ]
 console.log(array)
-function sum()
+
+
+function sum(a,b)
 {
-   let a =2;
-   let b =3; 
+   
    let sum=a+b
-   console.log(sum)
+   return sum
 }
-sum()
+console.log(sum(7,8));
+
+ //arrow fuction
+ const s=(x,y)=>{
+   let s=x+y
+   return s
+ }
+console.log(s(120,240));
+
+ //multiplication using arrow function and normal function
+ 
+function multi(c,d)
+{
+   
+   let multi=c*d
+   return multi
+}
+console.log(multi(7,8));
+
+ //arrow fuction
+ const m=(w,t)=>{
+   let m=w*t
+   return m
+ }
+console.log(m(120,240));
