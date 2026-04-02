@@ -1,12 +1,14 @@
-*{margin: 0;
+/* *{margin: 0;
 padding: 0;
 }
+
 ul{
 display: flex;
 justify-content: space-around;
 list-style: none;
 background-color:#8C271E ;
 color: #D8DDDE;
+padding: 10px;
 }
 h1 {
     
@@ -15,3 +17,21 @@ h1 {
     color: #D9F7FA;
     background-color: #ABA194;
 }
+button {
+    border-radius: 30px;
+    color:#D9F7FA;
+    background-color: black;
+    overflow: hidden;
+    border: 3px solid black;
+    padding: 5px;
+}
+.box{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 20px;
+
+} */
+ div {
+    color: green;
+ }
