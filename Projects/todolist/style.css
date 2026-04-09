@@ -28,8 +28,8 @@ header{
     width: 600px;
     background-color: #1f1f1f;
     border-radius: 50px;
-     display: flex;
-   
+    display: flex;
+    position: relative;
    
 }
 .content input{
@@ -65,4 +65,13 @@ color: black;
 .content button:hover{
     background-color: #4d85e6;
     transition-duration: 1s;
+}
+ul{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    color:white;
+    font-size: large;
+   
+     
 }
