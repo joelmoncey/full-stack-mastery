@@ -8,4 +8,18 @@ function addtask() {
         li.innerHTML=a.value
         b.appendChild(li)
     }
+    save();
+    a.value=""
 }
+a.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        addtask();
+    }
+});
+function save() {
+    localStorage.setItem("data",b.innerHTML)
+}
+function show() {
+    b.innerHTML=localStorage.getItem("data")
+}
+show()

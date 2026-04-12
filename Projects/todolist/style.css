@@ -75,3 +75,16 @@ ul{
    
      
 }
+footer{
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    color: white;
+
+}
+footer:hover {
+    background:linear-gradient(to right,white,#2564cf);
+    font-size: large;
+    transition-duration: 5s;
+}
