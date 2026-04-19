@@ -72,7 +72,7 @@ ul{
     top: 150px;
     color:white;
     font-size: large;
-   
+    
      
 }
 footer{
@@ -87,4 +87,46 @@ footer:hover {
     background:linear-gradient(to right,white,#2564cf);
     font-size: large;
     transition-duration: 5s;
+}
+li{
+    list-style: none;
+    position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 10px;
+}
+
+li::before{
+    content: '';
+    background-image: url("icons8-unchecked-checkbox-50.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid blue;
+}
+li::after{
+    content: '';
+    background-image: url("icons8-cross-mark-48.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+   
+}
+li.checked::before{
+    background-image: url("icons8-tick-box-50.png");
+    background-size: cover;
+}
+li.checked{
+    text-decoration: line-through;
 }

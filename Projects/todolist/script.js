@@ -11,10 +11,25 @@ function addtask() {
     save();
     a.value=""
 }
+b.addEventListener("click", function(event) {
+    if (event.target.tagName === "LI") {
+        const li = event.target;
+        const rect = li.getBoundingClientRect();
+        const clickX = event.clientX - rect.left;
+        if (clickX > li.offsetWidth - 30) {
+            li.remove();
+            save();
+        } else {
+            li.classList.toggle("checked");
+            save();
+        }
+    }
+});
+
 a.addEventListener("keydown", function(event) {
     if (event.key === "Enter") {
         addtask();
-    }
+    }            
 });
 function save() {
     localStorage.setItem("data",b.innerHTML)
