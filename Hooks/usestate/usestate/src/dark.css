@@ -1,0 +1,19 @@
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.dark {
+  background: black;
+  color: white;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+}
