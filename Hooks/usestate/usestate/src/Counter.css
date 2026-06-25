@@ -1,24 +1,19 @@
 *{
-  margin: 0px;
-}
-body{
-  
-  
-  background-color: black;
-
+  margin: 0;
 }
 
-h1{
-position: relative;  
-
-  color: aliceblue;
-}
 button{
- 
-display: inline-block;
-height: 30px;
-width: 50px;
-border-radius: 50px;
-background-color: blue;
-
+  height: 60px;
+  width: 70px;
+  border-radius: 50px;
+  border: none;
+}
+button:hover{
+  background-color: grey;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(4, 122, 226);
+  align-items: center;
 }
