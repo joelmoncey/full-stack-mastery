@@ -17,3 +17,19 @@ button:hover{
   background-color: rgb(4, 122, 226);
   align-items: center;
 }
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container button{
+background-color: aquamarine;
+}
+.container h1{
+  margin: 20px;
+}
+.Dark{
+  background-color: black;
+  color: aliceblue;
+}

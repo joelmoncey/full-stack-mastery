@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./dark.css";
-
+import Todolist from './Todolist'
+import { IoMoon } from "react-icons/io5";
+import { IoSunnyOutline } from "react-icons/io5";
 const Dark = () => {
   const [mode, setMode] = useState("light");
 
@@ -11,8 +13,9 @@ const Dark = () => {
   return (
     <div className={mode}>
       <button onClick={toggle}>
-        {mode === "light" ? "Dark Mode" : "Light Mode"}
+        {mode === "light" ? <IoMoon /> : <IoSunnyOutline />}
       </button>
+      <Todolist/>
     </div>
   );
 };

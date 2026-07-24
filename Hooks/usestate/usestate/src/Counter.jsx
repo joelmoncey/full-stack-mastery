@@ -1,18 +1,20 @@
-import React, { useState } from 'react'
-import { MdOutlineWbSunny } from "react-icons/md";
+import React from 'react'
+import { useState } from 'react'
 import "./Counter.css"
 const Counter = () => {
-  const[count,setcount] = useState(0)
-  return (
-    <div>
-      <div className="nav">
-        
+const [count,setcount]=useState(()=>0)
+const add = () =>{
+  setcount( value => value+1)
+  setcount( value => value+1)
+  
 
-      <h1>Simple Counter</h1>
-      <button><MdOutlineWbSunny  style={{fontSize:"40px",color:"orange"}}/></button>
-      </div>
-      {count}
-      
+}
+const minus =() =>{
+  setcount(count-1)
+}
+ return (
+    <div>
+      <button onClick={add}>+</button>{count}<button onClick={minus}>-</button>
     </div>
   )
 }
