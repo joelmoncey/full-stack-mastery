@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+
+}
+
+nav{
+padding: 10px;
+background-color:brown;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+h1{
+  color: beige;
+}
