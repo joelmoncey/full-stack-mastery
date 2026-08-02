@@ -1,0 +1,12 @@
+div{
+    max-width: 850px;
+    
+}
+ul{display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    padding: 20px;
+    list-style: none;
+    color: aliceblue;
+    width: 100%;
+}
