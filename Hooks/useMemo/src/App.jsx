@@ -1,14 +1,13 @@
 import React from 'react'
-// import Slash from './Slash'
-import Timer from './Timer'
+import Dark from './Dark'
+import "./App.css"
+
 const App = () => {
   return (
     <div>
-      {/* <Slash /> */}
-      <Timer/>
+     <Dark/> 
     </div>
   )
 }
 
 export default App
-
