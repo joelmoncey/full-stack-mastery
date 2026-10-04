@@ -1,0 +1,17 @@
+node_modules/
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Logs and generated files
+*.log
+coverage/
+dist/
+build/
+.nyc_output/
+
+# Local OS files
+.DS_Store
+Thumbs.db

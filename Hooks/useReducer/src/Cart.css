@@ -1,0 +1,38 @@
+*{
+ margin: 0;
+ padding:0;   
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: bisque;
+}
+.content{
+    background-color:blanchedalmond;
+    display: grid;
+    justify-content:space-between;
+    height: 100vh;
+      display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.content1{
+     background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer
+}
+.side{
+background-color:aliceblue;
+ height: 100vh;
+ width:200px;
+ margin-right: 0;
+  cursor: pointer
+}
+.content{
+  display: flex;
+}
